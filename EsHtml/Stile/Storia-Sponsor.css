@@ -1,0 +1,94 @@
+  
+
+
+.MainBox {
+	width: 90%;	
+	margin: 0 auto; 
+	text-align:left;
+	border: 1px solid black;
+        
+        }
+
+
+h1	{
+	text-align:center;
+	font-weight: bold;
+	font-family: 'Anton', sans-serif;
+	padding:10px;
+	color: yellow;
+text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+        }
+
+.Menu	{
+	font-family: Verdrana, Arial, sans-serif;
+	font-size: 15px;
+	margin: 0;
+	padding: 20px;
+	list-style-type: none;
+	position:relative;
+	top:0px;
+	left:180px;
+        }
+
+
+
+.Menu li {
+	background-color: yellow;border-left: 6px solid white;
+        color:black;
+        width:150px;
+        height:40px;
+        position:relative center;
+        top:-50px;
+        margin:2px 0;
+        display:inline;
+        float:left; 
+      
+        left:-50px;
+          }
+
+.Menu ul ul {
+	position:static;
+	
+	visibility: hidden;
+            }
+
+.Menu ul li:hover ul {
+	visibility: visible; 
+}
+
+.Menu li a {color:black;
+font-weight:bold;
+text-decoration:none;
+padding-left:5px;
+position:relative;
+left:-2px;
+line-height:40px;
+
+}
+
+.Menu li.active, li:hover{
+background-color: white;
+border-left:10px solid #d097de;
+text-decoration: underline;
+}
+
+
+
+
+
+.Testo1	{ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+	 margin:0 auto;
+	 text-align:justify;
+	 font-family: 'Cormorant Upright', serif;
+	 font-weight:bold;
+	 font-size: 28px;
+}
+
+.Footer{
+font:10px Arial;
+text-transform:uppercase;
+text-align:center;
+padding:10px;
+color:	 #3399ff  ;
+clear:both;
+}
